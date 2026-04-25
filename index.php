@@ -412,6 +412,25 @@ if (isset($_GET['raw']) || strpos($_SERVER['HTTP_USER_AGENT'], 'curl') === 0 || 
                             <button id="btnTextInc">+</button>
                         </div>
                     </div>
+                    <div class="settings-item"
+                        style="justify-content: center; gap: 10px; padding-top: 8px; border-top: 1px solid var(--border); margin-top: 4px;">
+                        <a href="https://github.com/Gokul-Sloth/NotePro" target="_blank"
+                            style="color: var(--text); text-decoration: none; font-size: 12px; transition: opacity 0.2s; display: flex; align-items: center; gap: 4px;"
+                            onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            GitHub
+                        </a>
+                        <span style="font-size: 12px; opacity: 0.5;">|</span>
+                        <a href="https://gokul.it.com" target="_blank"
+                            style="color: var(--text); text-decoration: none; font-size: 12px; transition: opacity 0.2s;"
+                            onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">Gokul.it.com</a>
+                    </div>
                 </div>
             </div>
         </div>
